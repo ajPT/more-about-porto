@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E05D50121CE281A700FA6557 /* ShadowedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05D50111CE281A700FA6557 /* ShadowedButton.swift */; };
 		E089AD171CE1252200633723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AD161CE1252200633723 /* AppDelegate.swift */; };
 		E089AD191CE1252200633723 /* InitialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E089AD181CE1252200633723 /* InitialVC.swift */; };
 		E089AD1E1CE1252200633723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E089AD1D1CE1252200633723 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E05D50111CE281A700FA6557 /* ShadowedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowedButton.swift; sourceTree = "<group>"; };
 		E089AD131CE1252200633723 /* a-little-about-porto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "a-little-about-porto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E089AD161CE1252200633723 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E089AD181CE1252200633723 /* InitialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialVC.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				E089AD281CE125A200633723 /* InitialVC.xib */,
 				E089AD2B1CE126C300633723 /* PhotosVC.xib */,
 				E089AD2F1CE126D400633723 /* AboutVC.xib */,
+				E05D50111CE281A700FA6557 /* ShadowedButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E05D50121CE281A700FA6557 /* ShadowedButton.swift in Sources */,
 				E089AD301CE126D400633723 /* AboutVC.swift in Sources */,
 				E089AD191CE1252200633723 /* InitialVC.swift in Sources */,
 				E089AD2C1CE126C300633723 /* PhotosVC.swift in Sources */,
