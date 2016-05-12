@@ -35,9 +35,9 @@ class PhotosVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Porto In Photos"
-        setupSwipe()
         setupImages()
         updateBulletImg()
+        setupSwipe()
     }
     
     override func viewWillAppear(animated: Bool) {

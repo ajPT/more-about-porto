@@ -22,39 +22,43 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZZf-u8-IFa">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZZf-u8-IFa">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                 </imageView>
-                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Srg-cM-C8l">
-                    <rect key="frame" x="245" y="553" width="135" height="10"/>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Srg-cM-C8l">
+                    <rect key="frame" x="233" y="550" width="135" height="10"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hqA-FT-rCi">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="hqA-FT-rCi">
                             <rect key="frame" x="0.0" y="0.0" width="10" height="10"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="10" id="nFD-sa-kNG"/>
                                 <constraint firstAttribute="height" constant="10" id="upV-r2-wkw"/>
                             </constraints>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WRr-jf-RNb">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="WRr-jf-RNb">
                             <rect key="frame" x="25" y="0.0" width="10" height="10"/>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1rU-wB-4Ed">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="1rU-wB-4Ed">
                             <rect key="frame" x="50" y="0.0" width="10" height="10"/>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pti-rW-USQ">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="Pti-rW-USQ">
                             <rect key="frame" x="75" y="0.0" width="10" height="10"/>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="icp-dT-XaD">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="icp-dT-XaD">
                             <rect key="frame" x="100" y="0.0" width="10" height="10"/>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F28-bY-qg6" userLabel="Bullet6 Img">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bulletYellow" translatesAutoresizingMaskIntoConstraints="NO" id="F28-bY-qg6" userLabel="Bullet6 Img">
                             <rect key="frame" x="125" y="0.0" width="10" height="10"/>
                         </imageView>
                     </subviews>
+                    <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                        <rect key="frame" x="133" y="750" width="135" height="10"/>
+                    </variation>
                 </stackView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstAttribute="bottom" secondItem="Srg-cM-C8l" secondAttribute="bottom" constant="40" id="1Pu-AP-lzO"/>
                 <constraint firstItem="Srg-cM-C8l" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9Ht-SM-1dl"/>
                 <constraint firstItem="ZZf-u8-IFa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="AZ5-Qs-zUG"/>
                 <constraint firstItem="ZZf-u8-IFa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Gkc-7P-gDi"/>
@@ -63,4 +67,7 @@
             </constraints>
         </view>
     </objects>
+    <resources>
+        <image name="bulletYellow" width="512" height="512"/>
+    </resources>
 </document>
