@@ -26,6 +26,9 @@ class AboutVC: UIViewController {
     override func viewWillAppear(animated: Bool) {
         navigationController?.setNavigationBarHidden(false, animated: false)
         navigationController?.hidesBarsOnTap = true
+        navigationController?.navigationBar.tintColor = UIColor(red: 12.0/255.0, green: 107.0/255.0, blue: 155.0/255.0, alpha: 1.0)
+        navigationController?.navigationBar.titleTextAttributes = [
+            NSForegroundColorAttributeName : UIColor(red: 12.0/255.0, green: 107.0/255.0, blue: 155.0/255.0, alpha: 1.0)]
     }
     
 }
