@@ -34,7 +34,6 @@ class InitialVC: UIViewController {
     
     @IBAction func loadAbout(sender: AnyObject) {
         navigationController?.pushViewController(aboutVC, animated: true)
-  //      presentViewController(aboutVC, animated: false, completion: nil)
     }
     
     @IBAction func loadPhotos(sender: AnyObject) {
