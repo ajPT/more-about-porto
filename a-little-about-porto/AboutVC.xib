@@ -253,32 +253,14 @@
                                                 <constraint firstAttribute="height" constant="21" id="Srs-wA-j9K"/>
                                                 <constraint firstAttribute="width" constant="23" id="kNk-uf-3kZ"/>
                                             </constraints>
-                                            <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
-                                                <rect key="frame" x="0.0" y="0.0" width="23" height="21"/>
-                                            </variation>
-                                            <variation key="heightClass=compact-widthClass=regular" misplaced="YES">
-                                                <rect key="frame" x="0.0" y="0.0" width="23" height="21"/>
-                                            </variation>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="BRIEF HISTORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q3U-7G-v9f">
                                             <rect key="frame" x="28" y="0.0" width="2787" height="21"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
-                                            <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
-                                                <rect key="frame" x="28" y="0.0" width="149" height="21"/>
-                                            </variation>
-                                            <variation key="heightClass=compact-widthClass=regular" misplaced="YES">
-                                                <rect key="frame" x="28" y="0.0" width="349" height="21"/>
-                                            </variation>
                                         </label>
                                     </subviews>
-                                    <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
-                                        <rect key="frame" x="0.0" y="0.0" width="177" height="21"/>
-                                    </variation>
-                                    <variation key="heightClass=compact-widthClass=regular" misplaced="YES">
-                                        <rect key="frame" x="0.0" y="0.0" width="377" height="21"/>
-                                    </variation>
                                 </stackView>
                                 <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="GkT-w2-hhw">
                                     <rect key="frame" x="0.0" y="31" width="2815" height="61"/>
@@ -291,17 +273,11 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
-                                            <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
-                                                <rect key="frame" x="0.0" y="0.0" width="177" height="288"/>
-                                            </variation>
                                             <variation key="heightClass=compact-widthClass=regular" misplaced="YES">
                                                 <rect key="frame" x="0.0" y="0.0" width="377" height="197"/>
                                             </variation>
                                         </label>
                                     </subviews>
-                                    <variation key="heightClass=compact-widthClass=compact" misplaced="YES">
-                                        <rect key="frame" x="0.0" y="31" width="177" height="288"/>
-                                    </variation>
                                     <variation key="heightClass=compact-widthClass=regular" misplaced="YES">
                                         <rect key="frame" x="0.0" y="31" width="377" height="197"/>
                                     </variation>
@@ -667,9 +643,6 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                     <exclude reference="mNg-jg-Xst"/>
                 </mask>
                 <mask key="constraints">
-                    <exclude reference="1Dh-mV-cRl"/>
-                    <exclude reference="9Id-XI-Kde"/>
-                    <exclude reference="wSt-Pl-dSM"/>
                     <exclude reference="1pN-ib-fBs"/>
                     <exclude reference="C3n-5U-55W"/>
                     <exclude reference="CJk-bE-ScM"/>
@@ -678,6 +651,9 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                     <exclude reference="SE6-Qg-LAB"/>
                     <exclude reference="n27-lP-tqD"/>
                     <exclude reference="rC0-JG-Xst"/>
+                    <exclude reference="1Dh-mV-cRl"/>
+                    <exclude reference="9Id-XI-Kde"/>
+                    <exclude reference="wSt-Pl-dSM"/>
                     <exclude reference="49Z-fH-bP6"/>
                     <exclude reference="ANF-ci-he3"/>
                     <exclude reference="gtb-l2-9L8"/>
@@ -689,11 +665,11 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                     <include reference="rta-qi-00e"/>
                 </mask>
                 <mask key="constraints">
-                    <include reference="9Id-XI-Kde"/>
                     <include reference="1pN-ib-fBs"/>
                     <include reference="C3n-5U-55W"/>
                     <include reference="GxF-fb-Uf9"/>
                     <include reference="SE6-Qg-LAB"/>
+                    <include reference="9Id-XI-Kde"/>
                 </mask>
             </variation>
             <variation key="heightClass=compact-widthClass=regular">
@@ -701,11 +677,11 @@ Porto has the reputation of being a hard working city. Indeed there is is a sayi
                     <include reference="rta-qi-00e"/>
                 </mask>
                 <mask key="constraints">
-                    <include reference="1Dh-mV-cRl"/>
                     <include reference="CJk-bE-ScM"/>
                     <include reference="ElR-A6-LlV"/>
                     <include reference="n27-lP-tqD"/>
                     <include reference="rC0-JG-Xst"/>
+                    <include reference="1Dh-mV-cRl"/>
                 </mask>
             </variation>
             <variation key="heightClass=regular-widthClass=compact">
